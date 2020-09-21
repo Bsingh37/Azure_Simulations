@@ -1,1 +1,30 @@
 
+Scenario:
+  - Client wants to build and deploy a video streaming App, similar to Youtube on the cloud. The App should stream videos and scale massively with high security.
+ 
+Approach:
+ 
+ 1 Choose an Azure Compute resource
+  - VMs? (Any speacialization?)
+  - AppServices?
+  - Containers?
+
+ 2 Choose the correct storage solution.
+  - Storage account to store the videos
+    - Blob seems to be the best for video streaming services
+ 
+ 3 Choose the right security plan
+  - Security provided by Microsoft Azure itself
+  - Ask the client how do they want to access the applications?
+  - VPNs? Vnet Peering? ExpressRoute?
+  - Configure WAFs
+  
+ 4 Configure dynamic Load Balancing
+  - Configure client-approved upscale/downscale conditions
+  - Use Azure Appservice plans
+  
+ 5 Configure SendGrid to handle the email solution
+ 
+ 6 Configure a monitoring solution 
+  - Az Montitor?
+  - Az Advisor could also help
