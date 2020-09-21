@@ -12,6 +12,7 @@ Approach:
  2 Choose the correct storage solution.
   - Storage account to store the videos
     - Blob seems to be the best for video streaming services
+    - For availability, choose the correct data redundancy (LRS/GRS etc)
  
  3 Choose the right security plan
   - Security provided by Microsoft Azure itself
