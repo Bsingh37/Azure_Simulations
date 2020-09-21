@@ -1,9 +1,11 @@
-*Scenario*
-  - Client is a up and coming leader in the devlopment and deployment of Tech-based Solutions. Client wants to deploy their Identity Theft & Fraud prevention product in the cloud.
+Scenario
+  - Client is a up and coming leader in the development and deployment of Tech-based Solutions. Client wants to deploy their Identity Theft & Fraud prevention product in the cloud.
 
-*Approach*
-  1 **Check for any existing licenses between Microsoft and client**
+Approach:
+  
+  1 Check for any existing licenses between Microsoft and client
       - If there are any existing licenses, check for Azure Microsoft benefit
+  
   2 Who will be accessing the product? 
     - Employees? (*Setup Azure AD*)
     - External partners? (*Setup Azure AD B2B*)
@@ -12,6 +14,11 @@
         - How many roles does the client need?
         - Can the roles be put into groups?
         - Ensure clear communication between client and the teams to ensure the right roles are assigned.
+  
   3 Setup Access Reviews
     - Show client the recommended Access Solutions by Azure
-  4 
+  
+  4 Create periodic backups to ensure information is retained in a Identity theft scenario.
+    -	Setup Blob storage with periodic backups to store log files
+   
+   5 Ensure client understands the capabilities of the services provided and the SLAs
