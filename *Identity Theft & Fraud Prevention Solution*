@@ -1,0 +1,17 @@
+*Scenario*
+  - Client is a up and coming leader in the devlopment and deployment of Tech-based Solutions. Client wants to deploy their Identity Theft & Fraud prevention product in the cloud.
+
+*Approach*
+  1 *Check for any existing licenses between Microsoft and client*
+      - If there are any existing licenses, check for Azure Microsoft benefit
+  2 Who will be accessing the product? 
+    - Employees? (*Setup Azure AD*)
+    - External partners? (*Setup Azure AD B2B*)
+    - Does the client need to manage customer accounts? (*Setup Azure AD B2C*)
+      - After choosing the correct capabilities, setup up groups and roles required by the client.
+        - How many roles does the client need?
+        - Can the roles be put into groups?
+        - Ensure clear communication between client and the teams to ensure the right roles are assigned.
+  3 Setup Access Reviews
+    - Show client the recommended Access Solutions by Azure
+  4 
