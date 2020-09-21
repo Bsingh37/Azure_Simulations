@@ -1,0 +1,26 @@
+#THIS SCENARIO SIMULATES A MIGRATION PROJECT
+
+Scenario:
+  - Client wants to migrate their 10+ Apps running on multiple servers to the cloud. Client wants more scalability in the cloud relative to on-premises.
+ 
+Approach:
+ 
+ 1 Check for any existing licenses between Microsoft and client
+  - If there are any existing licenses, check for Azure Microsoft benefit
+
+ 2 Configure the right migration solution.
+  - Ensure the https://smartmigration.blob.core.windows.net/smart/Azure%20migration%20readiness%20whitepaper.pdf requirements are met.
+  - Choose Refactor/Rebuild migration strategy
+ 
+ 3 Choose the right security plan
+  - Ask the client how do they want to access the applications?
+  - VPNs? Vnet Peering? ExpressRoute?
+  - Configure WAFs
+  
+ 4 Configure dynamic Load Balancing
+  - Configure client-approved upscale/downscale conditions
+  
+ 5 Use Content Delivery Network (CDN) to deliver content across all apps.
+ 
+ 6 Configure Business Continuity Solutions
+  - ASR etc
