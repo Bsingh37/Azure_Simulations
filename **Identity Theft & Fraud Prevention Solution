@@ -3,7 +3,7 @@ Scenario
 
 Approach:
   
-  1 *Check for any existing licenses between Microsoft and client
+  1 **Check for any existing licenses between Microsoft and client**
       - If there are any existing licenses, check for Azure Microsoft benefit
   
   2 Who will be accessing the product? 
